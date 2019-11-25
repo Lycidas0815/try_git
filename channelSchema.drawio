@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-25T17:13:31.860Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="wprtD1vGgJtp0f7aed8W" version="12.2.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-25T17:46:38.950Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="xgnIZ9D59frsEDr0L3In" version="12.2.9" type="github" pages="1">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1472" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -116,16 +116,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="q7hs_VkpE_AYA9bLfntz-7" value="Session" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="450" y="130" width="160" height="107" as="geometry"/>
+          <mxGeometry x="450" y="130" width="160" height="112" as="geometry"/>
         </mxCell>
         <mxCell id="q7hs_VkpE_AYA9bLfntz-8" value="+ start/end" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="q7hs_VkpE_AYA9bLfntz-7">
           <mxGeometry y="26" width="160" height="26" as="geometry"/>
         </mxCell>
+        <mxCell id="q7hs_VkpE_AYA9bLfntz-13" value="+ key/value-pairs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="q7hs_VkpE_AYA9bLfntz-7">
+          <mxGeometry y="52" width="160" height="26" as="geometry"/>
+        </mxCell>
         <mxCell id="q7hs_VkpE_AYA9bLfntz-9" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="q7hs_VkpE_AYA9bLfntz-7">
-          <mxGeometry y="52" width="160" height="8" as="geometry"/>
+          <mxGeometry y="78" width="160" height="8" as="geometry"/>
         </mxCell>
         <mxCell id="q7hs_VkpE_AYA9bLfntz-10" value="+ method(type): type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="q7hs_VkpE_AYA9bLfntz-7">
-          <mxGeometry y="60" width="160" height="26" as="geometry"/>
+          <mxGeometry y="86" width="160" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="q7hs_VkpE_AYA9bLfntz-11" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;shadow=0;comic=0;exitX=0.438;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -137,10 +140,9 @@
             <mxPoint x="530" y="236.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="q7hs_VkpE_AYA9bLfntz-12" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;shadow=0;comic=0;exitX=0.631;exitY=-0.044;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="q7hs_VkpE_AYA9bLfntz-1">
+        <mxCell id="q7hs_VkpE_AYA9bLfntz-12" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;shadow=0;comic=0;exitX=0.438;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="720" y="586"/>
               <mxPoint x="720" y="210"/>
             </Array>
             <mxPoint x="720" y="311" as="sourcePoint"/>
